@@ -24,13 +24,20 @@ button {
     font-weight: 600;
 }
 
-/* Start of Header Changes */
-.header {
+/* Start of Header and Footer Changes */
+.header, .footer {
     display: flex;
     background-color: #1F2937;
-    padding: 16px 128px;
-    justify-content: space-between;
+    padding: 8px 128px;
     align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
 }
 
 .logo {
@@ -48,7 +55,7 @@ ul {
     gap: 16px;
 }
 
-li {
+.links {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
@@ -147,11 +154,42 @@ li {
 }
 /* End of Quote */
 
+/* Start of Sign Up */
 .sign-up {
     display: flex;
     flex: 1;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
+.signup-box {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 80px;
+
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 16px;
+
+}
+
+.signup-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.signup-text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.signup-box button {
+    border: 2px solid #E5E7EB;
+}
+/* End of Sign Up */
 .footer {
     text-align: center;
 }
