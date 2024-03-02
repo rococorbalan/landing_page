@@ -11,10 +11,23 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
+/* Buttons style */
+button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+}
+
+/* Start of Header Changes */
 .header {
     display: flex;
     background-color: #1F2937;
-    padding: 16px 64px;
+    padding: 16px 128px;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,11 +52,32 @@ li {
     font-size: 18px;
     color: #E5E7EB;
 }
+/* End of Header changes */
 
-
+/* Start of Hero Changes */
 .main-text {
     display: flex;
     flex: 1;
+    background-color: #1F2937;
+    padding: 64px 128px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.text {
+    width: 500px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.second {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .info {
@@ -64,3 +98,5 @@ li {
 .footer {
     text-align: center;
 }
+
+
